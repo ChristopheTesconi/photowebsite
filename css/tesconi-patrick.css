@@ -1,0 +1,293 @@
+p,ul {
+    color:royalblue;
+}
+
+a {
+	color: #242424;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: 'Manrope', sans-serif;
+}
+
+em {
+	color: #A5B4FC;
+	font-style: normal;
+}
+
+h1 {
+	font-size: 3.5em;
+	color: #a5b4fc;
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+	font-size: 1.1em;
+	font-family: 'Manrope', sans-serif;
+}
+ul {
+	font-size: 1em;
+	font-family: 'Manrope', sans-serif;
+}
+body {
+	margin:0;
+	background-color: #1F2039;
+}
+p, ul, h2 {
+	color: #F9F8FF;
+}
+.cta {
+	font-size: 'Montserrat', sans-serif;
+	color: white;
+	background: linear-gradient(#8e86b5, #acaeed);
+	border-radius: 50px;
+	padding: 20px 30px;
+	display: inline-block;
+}
+
+
+.para-a-propros {
+	border-right: 1px solid #A5B4FC;
+	border-bottom: 1px solid #A5B4FC;
+	padding: 50px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.cta:hover {
+	text-decoration: none;
+	background: linear-gradient(#696484, #8788BA);
+}  
+
+img:hover {
+	opacity: 0.7;
+}
+* {
+	margin: 0;
+}
+header, footer {
+	background-color: white;
+}
+section {
+	padding: 40px;
+}
+.para-a-propros h2 {
+	margin-top: 30px;
+}
+.para-a-propros ul {
+	margin-top: 30px;
+}
+
+.para-a-propros {
+	padding: 50px;
+}
+.a-propos-main {
+	width: 50%;
+	margin: auto;
+}
+.portfolio-section-photo {
+	background-color: white;
+}
+.portfolio-section-photo h2 {
+	color: #242424;
+	margin-bottom: 30px;
+}
+footer, 
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+nav a, footer a {
+	margin-left: 10px;
+	margin-right: 30px;
+}
+.accueil_tesconi_patrick {
+	display: flex;
+	flex-direction: row;
+	width: 70%; /*Ici, la propriété width me permet d'avoir 50% de la largeur*/
+	align-items: center;
+	margin: auto;
+	flex-wrap: w;
+}
+.titre-h1-accueil {
+	padding-bottom: 40px;
+}
+.para-accueil {
+	padding-bottom: 40px;
+	margin-right: 30px;
+}
+.accueil-photos {
+	background-color: white;
+	padding: 80px;
+}
+.accueil-photos h2 {
+	color: #242424;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.accueil-photos div {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.voyages {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+.portraits {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 15px;
+}
+.portraits img, .voyages img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.voyages {
+	padding-bottom: 30px;
+}
+.lien-conteneur-photo {
+	position: relative;
+  }
+  
+  .photo-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5em;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+	display: flex;
+  }
+  table {
+	border-collapse: collapse;
+	font-size: 1em;
+	color: white;
+	font-family: 'Manrope', sans-serif;
+	margin: auto;
+	margin-bottom: 50px;
+	justify-content: center;
+  }
+  td {
+	border: 1px solid #a5b4fc;
+	padding: 50px;
+	margin: 20px;
+  }
+  th {
+	border: 1px solid #a5b4fc;
+	padding: 10px;
+	margin: 10px;
+  }
+  th, td {
+	text-align: center;
+  }
+  form {
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: auto;
+	color: white;
+	font-family: 'Manrope', sans-serif;
+  }
+  
+  .form-nom-email {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+  }
+  
+  .form-column {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  
+  .projet {
+	margin: 50px;
+	margin-left: 90px;
+  }
+
+  /* Styles du bouton du menu mobile */
+#menu-burger-button {
+    display: none; /* Le bouton est caché par défaut */
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+  @media screen and (max-width: 768px) {
+
+  .accueil-introduction {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .accueil_tesconi_patrick {
+	flex-direction: column;
+	align-items: center;
+}
+h1 {
+	font-size: 2em; 
+}
+.voyages,
+.portraits,
+.accueil-photos {
+	display: block;
+}
+
+    /* Afficher le bouton du menu mobile */
+    #menu-burger-button {
+		color: red;
+        display: block;
+    }
+
+    /* Cacher les liens de navigation principaux */
+    nav a {
+        display: none;
+    }
+
+    /* Afficher les liens de navigation dans un menu déroulant lorsque le bouton est cliqué */
+    #menu-burger-button:focus + .menu-burger-items {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Ajustez cette valeur en fonction de votre disposition */
+        right: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    /* Style des liens du menu déroulant */
+    .menu-burger-items a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+        font-size: 1.2em;
+        border-bottom: 1px solid #A5B4FC; /* Ligne de séparation entre les liens */
+    }
+
+}
